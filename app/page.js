@@ -5,7 +5,6 @@ import Hero from "@/pages/Hero";
 import Navbar from "@/pages/Navbar";
 import Projects from "@/pages/Projects";
 import Footer from '@/pages/Footer';
-import Test from '@/pages/Test';
 
 export default function Home() {
   const [isInHomeSection, setIsInHomeSection] = useState(false);
