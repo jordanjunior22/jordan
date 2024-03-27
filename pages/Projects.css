@@ -173,6 +173,7 @@
     }
     .case-study-image{
         margin: 0;
+        width: 100%;
     }
     .project-sub-heading p{
         font-size: 2rem;
