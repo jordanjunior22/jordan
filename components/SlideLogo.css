@@ -1,0 +1,33 @@
+.logo-slide {
+    width: 100%; /* Adjust width as needed */
+    overflow: hidden; /* Ensure the overflow is hidden to hide items moving outside */
+    white-space: nowrap; /* Prevent items from wrapping */
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.2); /* Inner shadow */
+}
+
+.logo-slide:hover {
+	animation-play-state: paused;
+}
+.item-logo{
+    font-size: 20rem;
+    color: var(--secondary-color);
+}
+.item {
+    display: inline-block;
+    padding: 10px; /* Example padding */
+  }
+  
+  @keyframes slide {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-100%); }
+  }
+  
+  .item {
+    animation: 20s slide infinite linear; /* Adjust animation duration and timing function as needed */
+  }
+
+  @media (max-width:880px){
+    .item-logo{
+      font-size: 10rem;
+    }
+  }

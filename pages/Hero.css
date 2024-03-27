@@ -1,0 +1,151 @@
+.hero{
+    background-image: url('/bg_image.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: var(--secondary-color);
+}
+.heading_container{
+    display: flex;
+    justify-content: center;
+    align-items: last baseline;
+    padding: 0 5rem;
+    font-size: 1rem;
+}
+.heading_container h1{
+    font-size: 8rem;
+    font-weight: 100;
+    background: linear-gradient(to right, #FFFFFF 0%, #E7E7E7 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.heading_container p{
+    height: fit-content;
+    text-align: right;
+}
+.name{
+    font-style: italic;
+    font-weight: bold;
+}
+.addOpacity{
+    opacity: 0.8;
+}
+.lower_heading{
+    padding: 0 5rem;
+    margin-top: -5rem;
+    display: flex;
+    justify-content: center;
+
+}
+.jordan_container_photo{
+    width: 230px;
+    height: 230px;
+    overflow: hidden;
+    border-radius: 10px;
+    
+}
+.jordan_container_photo img{
+    width: 100%;
+}
+.available_location{
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    font-size: 1rem;
+    padding-right: 0.5rem;
+
+}
+.techstack{
+    text-align: right;
+    border-bottom: 4px solid var(--cta-color);
+    margin-top: -0.2rem;
+    padding-right: 0.5rem;
+}
+
+.margin_top{
+    margin-top: -1rem;
+}
+.tech{
+    margin-top: -1.65rem;
+    font-size: 0.8rem;
+    padding-left: 1rem;
+    color: var(--secondary-color);
+    font-weight: bold;
+    border-bottom-left-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 10px 32px 0 rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+.typing{
+    display: none;
+}
+@media (max-width:1031px){
+    .heading_container{
+        flex-direction: column;
+        align-items:center;
+    }
+    .lower_heading{
+        margin: 0;
+    }
+}
+
+@media (max-width:768px) {
+    .photo_typin{
+        display: flex;
+        align-items: last baseline;
+        gap: 1rem;
+    }
+    .typing{
+        display: flex;
+        width: 60%;
+        font-size: 0.4rem;
+        text-align: left;
+        font-style: italic;
+    }
+    .hero{
+        font-size: 0.8rem;
+    }
+    .heading_container{
+        padding: 0;
+    }
+    .heading_container h1{
+        font-size: 4rem;
+        padding: 0 0.5rem;
+        margin-bottom: 1rem;
+    }
+    .heading_container p{
+        font-size: 0.8rem;
+    }
+    .left_lower_heading{
+        width: 100%;
+        
+    }
+    .lower_heading{
+        padding: 0;
+        flex-direction: column-reverse;
+        width: 100%;
+
+    }
+    .tech{
+        margin: 0;
+        border-radius: 0px;
+        font-size: 0.7rem;
+    }
+    .techstack{
+        width: 100%;
+        padding: 0;
+    }
+    .available_location{
+        padding: 0;
+        font-size: 0.8rem;
+    }
+    .jordan_container_photo{
+        margin-top: 0.5rem;
+    }
+    .available_location{
+        gap: 0;
+        justify-content: space-between;
+    }
+    
+}

@@ -1,0 +1,27 @@
+/* styles/OnlineIndicator.module.css */
+.online-container{
+    display: flex;
+    align-items: center;
+    gap: 0.2rem;
+}
+.onlineIndicator {
+    width: 10px;
+    height: 10px;
+    background-color: #0f0; /* Green color */
+    border-radius: 50%;
+    animation: blink 1s infinite; /* Blinking animation */
+    box-shadow: 0 0 10px rgba(0, 128, 0, 0.5); /* Green glow */
+  }
+  
+  @keyframes blink {
+    0% {
+      opacity: 1; /* Fully visible */
+    }
+    50% {
+      opacity: 0; /* Fully transparent */
+    }
+    100% {
+      opacity: 1; /* Fully visible */
+    }
+  }
+  

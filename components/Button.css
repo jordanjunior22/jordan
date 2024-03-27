@@ -1,0 +1,28 @@
+button{
+    font-size: 1rem;
+    font-family: 'Supreme';
+    border: 1px solid gray;
+    color: var(--secondary-color);
+    cursor: pointer;
+    padding: 1rem;
+    font-weight: bold;
+    border-radius: 10px;
+    transition: background-color 0.2s ease-in-out;
+    opacity: 0.8;
+    background-color: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 8px 32px 0 rgba(135, 31, 79, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+button:hover{
+    background-color: var(--secondary-color);
+    border: 1px solid var(--secondary-color);
+    color: var(--primary-color);
+    opacity: 1;
+}
+
+@media (max-width: 768px) {
+    button{
+        font-size: 0.7rem;
+    }
+}

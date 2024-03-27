@@ -1,0 +1,9 @@
+.whatsapp{
+    font-size: 3rem;
+    color: var(--cta-color);
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    cursor: pointer;
+    z-index:5;
+}

@@ -1,0 +1,32 @@
+.experience{
+    background-color: var(--secondary-color);
+}
+.experience h1{
+    font-size: 8rem;
+    font-weight: 100;
+    color: var(--primary-color);
+}
+.exp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+@media (max-width:880px){
+    .experience h1{
+        font-size: 2.5rem;
+    }
+}
+@media (max-width:768px) {
+
+    .exp{
+        flex-direction:column;
+    }
+    .expintro{
+        width: 100%;
+    }
+    .expintro{
+        font-size: 1rem;
+    }
+
+}

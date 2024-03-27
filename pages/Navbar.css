@@ -1,0 +1,99 @@
+.logo_container{
+    width: 120px;
+    overflow: hidden;
+}
+.logo_container img{
+    width: 100%;
+
+}
+.navbar{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1.5rem;
+    z-index: 4;
+}
+a{
+  color: var(--secondary-color);
+  text-decoration: none;
+  opacity: 0.8;
+  transition: opacity 0.2s ease-in-out;
+}
+a:hover{
+    opacity: 1;
+}
+.nav-container{
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+    margin-right: 4rem;
+}
+nav{
+    display: flex;
+    gap: 1rem;
+    font-size: 0.8rem;
+    border: 1px solid gray;
+    font-weight: bold;
+    padding: 1rem;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 8px 32px 0 rgba(135, 31, 79, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+.navbar-experience-section-class{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    display: flex;
+    gap: 1rem;
+    font-size: 0.8rem;
+    box-shadow: 0 8px 32px 0 rgba(135, 31, 79, 0.1);
+
+    font-weight: bold;
+    padding: 0.5rem;
+    border-radius: 10px;
+}
+.menu-icon,.mobile-navbar{
+    display: none;
+}
+@media (max-width: 768px) {
+    nav{
+        font-size: 0.5rem;
+    }
+}
+@media (max-width: 534px) {
+    .nav-container{
+        display: none;
+    }
+    .menu-icon{
+        display: block;
+        font-size: 2.5rem;
+        color: var(--secondary-color);
+        margin-right: 2rem;
+        opacity: 0.8;
+    }
+    .mobile-navbar{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        left: -1000px;
+        top: 0;
+        bottom: 0;
+        background-color: rgb(109, 107, 105);
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+        transition: left 0.3s ease-in-out;
+        
+    }
+    .show-mobile-nav{
+        left:0;
+    }
+    .close{
+        color: var(--secondary-color);
+        font-size: 2.5rem;
+    }
+}
