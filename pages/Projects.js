@@ -12,6 +12,20 @@ import ProjectCart from '@/components/ProjectCart'
 export default function Projects() {
   const projects = [
     {
+      projectName: "Ecommerce Front",
+      technologies: ["Next Js", "Mongo DB", "Axios", "Stripe Intergration"],
+      githubLink: "https://github.com/jordanjunior22/ecommerce-front",
+      liveLink: "https://github.com/jordanjunior22/ecommerce-front",
+      imgSrc: "./front.png"
+    },
+    {
+      projectName: "Ecommerce Admin Panel",
+      technologies: ["Next Js", "Mongo DB", "Axios"],
+      githubLink: "https://github.com/jordanjunior22/ecommerce-admin",
+      liveLink: "https://github.com/jordanjunior22/ecommerce-admin",
+      imgSrc: "./admin.png"
+    },
+    {
       projectName: "Passionate Center Homes",
       technologies: ["Next.js", "Css", "Axios"],
       githubLink: "https://github.com/jordanjunior22/passionate",
@@ -46,7 +60,7 @@ export default function Projects() {
       liveLink: "/",
       imgSrc: "./bill.png"
     },
-    // Add more projects as needed
+    
   ];
  
   
