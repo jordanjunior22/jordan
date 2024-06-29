@@ -16,10 +16,24 @@ const WorkExperience = () => {
       animate={controls}
       className="work-experience"
     >
+        
+      <Reveal className="work-entry">
+        <h3 className="job-title">React Native Developer (Freelance)</h3>
+        <p className="company">Social Inusuer, Maryland ,United States</p>
+        <p className="duration">July 01 2023 - Present</p>
+        <ul>
+          <li> Develop mobile applications using React Native and TypeScript, ensuring compatibility with iOS and Android.</li>
+          <li>Integrate RESTful APIs to connect front-end components with back-end services, optimizing data exchange and user interaction.</li>
+          <li>Create and modify design assets with Figma to maintain design consistency and support layout requirements.</li>
+          <li>Using Tools like Figma to design UI.</li>
+          <li>Quality assurance and testing.</li>
+        </ul>
+      </Reveal>
+        
         <Reveal className="work-entry">
         <h3 className="job-title">Software Developer</h3>
         <p className="company">Sohdecam Health Services, Mbouda, Cameroon</p>
-        <p className="duration">July 2023 - Present</p>
+        <p className="duration">December 2023 - Present</p>
         <ul>
           <li>Proficient in designing, coding, testing, debugging, and maintaining software applications or systems, utilizing various programming languages and frameworks.</li>
           <li>Analyzing and outlining the requirements for the development of a new Health Care Management System.</li>
@@ -41,6 +55,7 @@ const WorkExperience = () => {
           <li>Assist customers with account management such as plan upgrades or changes.</li>
         </ul>
       </Reveal>
+        
       <Reveal className="work-entry">
         <h3 className="job-title">Backend Developer</h3>
         <p className="company">Final International University, Cyprus, Kyrenia</p>
@@ -57,18 +72,6 @@ const WorkExperience = () => {
           and work with the code.
           </li>
           <li>Proactively learned new technologies and techniques, staying up-to-date with industry trends and best practices.</li>
-        </ul>
-      </Reveal>
-
-      <Reveal className="work-entry">
-        <h3 className="job-title">IT Assistant (Volunteer)</h3>
-        <p className="company">Sohdecam Health Services, Bamenda,Cameroon</p>
-        <p className="duration">May 16 2018 - November 2018</p>
-        <ul>
-          <li>Diagnosing and resolving hardware and software issues.</li>
-          <li>Installing, configuring, and maintaining medical equipment.</li>
-          <li>Implementing data backup and disaster recovery plans.</li>
-          <li>Maintaining comprehensive IT system documentation.</li>
         </ul>
       </Reveal>
 
