@@ -31,17 +31,16 @@ const WorkExperience = () => {
       </Reveal>
         
         <Reveal className="work-entry">
-        <h3 className="job-title">Software Developer</h3>
+        <h3 className="job-title">Junior Software Developer</h3>
         <p className="company">Sohdecam Health Services, Mbouda, Cameroon</p>
         <p className="duration">December 2023 - Present</p>
         <ul>
-          <li>Proficient in designing, coding, testing, debugging, and maintaining software applications or systems, utilizing various programming languages and frameworks.</li>
-          <li>Analyzing and outlining the requirements for the development of a new Health Care Management System.</li>
-          <li>Creating and developing a new website to replace the outdated one.</li>
-          <li>Skilled in collaborating with stakeholders to understand project requirements and effectively translate user needs into software solutions.</li>
-          <li>Adept at identifying and resolving technical issues, including bugs, performance bottlenecks, and compatibility concerns, ensuring smooth project execution.</li>
-          <li>Experienced in using Git for version control, collaborating with cross-functional teams to manage changes to the codebase, and ensuring effective project coordination.</li>
-          <li>Proficient in documenting code, APIs, and system architecture to facilitate understanding, maintenance, and future development, ensuring comprehensive project documentation.</li>
+          <li>Analyzing and outlining the requirements for the development of Health Care Management System.</li>
+          <li>Providing technical support to end-users, investigating and resolving issues reported in production environments.</li>
+          <li>Designing, coding, testing, and debugging software applications.</li>
+          <li>Collaborating with stakeholders to gather and analyze software requirements.</li>
+          <li>Architecting scalable and maintainable software systems based on requirements.</li>
+          <li>Designing and implementing database schemas, writing SQL queries, and optimizing database performance.</li>
         </ul>
       </Reveal>
       <Reveal className="work-entry">
