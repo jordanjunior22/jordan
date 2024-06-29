@@ -48,7 +48,7 @@ export default function Navbar({isInHomeSection, isInExperienceSection, isInProj
       };
       const handleDownload = () => {
         const downloadLink = document.createElement("a");
-        downloadLink.href = "./Resume_2.pdf";
+        downloadLink.href = "./MY_RESUME.pdf";
         downloadLink.download = "Resume.pdf";
         document.body.appendChild(downloadLink);
         downloadLink.click();
