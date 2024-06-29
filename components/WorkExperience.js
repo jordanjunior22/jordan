@@ -19,7 +19,7 @@ const WorkExperience = () => {
         
       <Reveal className="work-entry">
         <h3 className="job-title">React Native Developer (Freelance)</h3>
-        <p className="company">Social Inusuer, Maryland ,United States</p>
+        <p className="company">Social Insure, Maryland ,United States</p>
         <p className="duration">July 01 2023 - Present</p>
         <ul>
           <li> Develop mobile applications using React Native and TypeScript, ensuring compatibility with iOS and Android.</li>
