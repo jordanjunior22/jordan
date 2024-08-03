@@ -75,7 +75,7 @@ export default function Projects() {
             <Reveal className='case-study'>
         <Reveal className='case-study-description'>
                 <h3>Social Insure Project</h3>
-                  <div className='tech-used'>
+                  <div className='tech-used add-t'>
                     <p>Next Js</p>
                     <p>React Native Js</p>
                     <p>Mongo DB</p>
