@@ -22,6 +22,9 @@
 .add-t{
     flex-wrap: wrap;
 }
+.case-study-image iframe{
+    width: 100%;
+}
 .tech-used-for-cart{
     display: flex;
     gap: 0.5rem;
