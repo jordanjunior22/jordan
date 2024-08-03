@@ -93,7 +93,7 @@ export default function Projects() {
                     </div> */}
             </Reveal>
             <Reveal className='case-study-image'>
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/QZ7kDE4IA8s?si=m89Fa-cYL1vuzVnQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/QZ7kDE4IA8s?si=Tm9aD0ewYjmZa-Gw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </Reveal>
 
         </Reveal>
