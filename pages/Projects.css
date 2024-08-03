@@ -12,6 +12,7 @@
     color: var(--secondary-color);
     margin-top: 4rem;
 }
+
 .tech-used{
     display: flex;
     gap: 0.5rem;
@@ -75,6 +76,12 @@
     margin-right: -4rem;
 
 
+}
+.case-study-image-n{
+    width: 50%;
+    position: relative;
+    z-index: 2;
+    margin-left: -4rem;
 }
 .case-study-image img{
     width: 100%;
@@ -173,7 +180,7 @@
     .case-study{
         flex-direction: column-reverse;
     }
-    .case-study-image{
+    .case-study-image,.case-study-image-n{
         margin: 0;
         width: 100%;
     }
