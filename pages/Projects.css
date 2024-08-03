@@ -19,6 +19,9 @@
     margin-top: -2rem;
 
 }
+.add-t{
+    flex-wrap: wrap;
+}
 .tech-used-for-cart{
     display: flex;
     gap: 0.5rem;
@@ -77,7 +80,7 @@
 
 
 }
-.case-study-image-n{
+.case-study-image-new{
     width: 50%;
     position: relative;
     z-index: 2;
@@ -180,7 +183,7 @@
     .case-study{
         flex-direction: column-reverse;
     }
-    .case-study-image,.case-study-image-n{
+    .case-study-image,.case-study-image-new{
         margin: 0;
         width: 100%;
     }
