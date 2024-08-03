@@ -72,6 +72,31 @@ export default function Projects() {
         <Reveal>
             <SlideLogo/>
         </Reveal>
+            <Reveal className='case-study'>
+        <Reveal className='case-study-description'>
+                <h3>Social Insure Project</h3>
+                  <div className='tech-used'>
+                    <p>Next Js</p>
+                    <p>React Native Js</p>
+                    <p>Mongo DB</p>
+                    <p>Axios</p>
+                    <p>Cloudinary Api</p>
+                    <p>Firebase Api</p>
+                    <p>Clerk Auth</p>
+                  </div>
+                  <p className='project-des'>Social Insure is a community funded platform for loved ones, ensuring they have needed support they deserve
+                  in a most timely and efficient manner.</p>
+                    {/* <div className='cta-project'>
+                       
+                      <Link href='https://github.com/jordanjunior22/exchange-rate-app' target='_blank' className='cta-btn-project'><IconText Icons={FaReact} text='Github'/></Link>                   
+                      <Link href='https://exchange-rate-app-nine.vercel.app/' target='_blank' className='cta-btn-project'><Online state='Live Demo'/></Link>
+                    </div> */}
+            </Reveal>
+            <Reveal className='case-study-image'>
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/QZ7kDE4IA8s?si=m89Fa-cYL1vuzVnQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </Reveal>
+
+        </Reveal>
         <Reveal className='case-study'>
             <Reveal className='case-study-image'>
                 <img src='./Exchange.png' alt='img'/>
