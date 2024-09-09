@@ -12,6 +12,13 @@ import ProjectCart from '@/components/ProjectCart'
 export default function Projects() {
   const projects = [
     {
+      projectName: "FX CALCULATOR",
+      technologies: ["Next Js", "TypeScript"],
+      githubLink: "https://github.com/jordanjunior22/ecommerce-front",
+      liveLink: "https://fxcaculator.vercel.app/",
+      imgSrc: "./fxcal.png"
+    },
+    {
       projectName: "Ecommerce Front",
       technologies: ["Next Js", "Mongo DB", "Axios", "Stripe Intergration"],
       githubLink: "https://github.com/jordanjunior22/ecommerce-front",
@@ -45,13 +52,6 @@ export default function Projects() {
       githubLink: "https://github.com/jordanjunior22/socialinsure",
       liveLink: "https://jordanjunior22.github.io/attire.github.io/",
       imgSrc: "./atire.png"
-    },
-    {
-      projectName: "SOHDECAM",
-      technologies: ["Next Js", "Tailwin", "Nodemailer", "Axios"],
-      githubLink: "https://github.com/jordanjunior22/sohdecam",
-      liveLink: "https://jordanjunior22.github.io/sohdecam/",
-      imgSrc: "./soh.png"
     },
     {
       projectName: "Billing And Inventory System Software",
