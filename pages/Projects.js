@@ -12,6 +12,13 @@ import ProjectCart from '@/components/ProjectCart'
 export default function Projects() {
   const projects = [
     {
+      projectName: "Building My Start Up",
+      technologies: ["Next Js", "TypeScript"],
+      githubLink: "",
+      liveLink: "https://slaylinks.vercel.app/",
+      imgSrc: "./startup.jpg"
+    },
+    {
       projectName: "FX CALCULATOR",
       technologies: ["Next Js", "TypeScript"],
       githubLink: "https://github.com/jordanjunior22/ecommerce-front",
