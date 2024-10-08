@@ -12,7 +12,7 @@ import ProjectCart from '@/components/ProjectCart'
 export default function Projects() {
   const projects = [
     {
-      projectName: "Building My Start Up",
+      projectName: "My Tech StartUp I",
       technologies: ["Next Js", "TypeScript","Mongo DB","Stripe Api","Next Auth"],
       githubLink: "",
       liveLink: "https://slaylinks.vercel.app/",
