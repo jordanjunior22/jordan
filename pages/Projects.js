@@ -13,7 +13,7 @@ export default function Projects() {
   const projects = [
     {
       projectName: "Building My Start Up",
-      technologies: ["Next Js", "TypeScript","Mongo DB","Stripe Api","Next Auth],
+      technologies: ["Next Js", "TypeScript","Mongo DB","Stripe Api","Next Auth"],
       githubLink: "",
       liveLink: "https://slaylinks.vercel.app/",
       imgSrc: "./startup.jpg"
