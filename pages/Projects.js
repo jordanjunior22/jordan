@@ -15,7 +15,7 @@ export default function Projects() {
       projectName: "My Tech StartUp I",
       technologies: ["Next Js", "TypeScript","Mongo DB","Stripe Api","Next Auth"],
       githubLink: "",
-      liveLink: "https://slaylinks.vercel.app/",
+      liveLink: "https://www.slaylinks.com",
       imgSrc: "./startup.jpg"
     },
     {
